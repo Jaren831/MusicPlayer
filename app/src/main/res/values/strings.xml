@@ -13,8 +13,9 @@
 
     <!-- Description for main activity  -->
     <string name="mainExplain">This view displayed the song library. Scrollabe below library text. Clciking on
-        a song will take you to the player activity.</string>
+        a song will take you to the player activity. Technical hurdles will be making a means to store all the song info so that it is accessible by other activity.</string>
     <!-- Description for player activity -->
-    <string name="playerExplain">Activity for song playing. Will display album art, artist/song info. Play button will turn into a pause button and vice/versa whem clicked. Forward and back arrows take you to activity        for next song. Will use mediaPlayer class to control music playback. Depedning on time left in song will move viewbar.</string>
+    <string name="playerExplain">Activity for song playing. Will display album art, artist/song info. Play button will turn into a pause button and vice/versa whem clicked.
+        Forward and back arrows take you to activity for next song. Will use mediaPlayer class to control music playback. Depedning on time left in song will move viewbar. Technical hurdles will figuring out how to navigate between stored songs. Getting play/pause to work.</string>
 
 </resources>
