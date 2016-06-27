@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">MusicPlayer</string>
+    <!-- Title for the application.  -->
+    <string name="app_name">My Music Player</string>
+
+    <!-- Name for player screen [CHAR LIMIT=20] -->
+    <string name="player_screen">Player</string>
+
+    <!-- Name for library screen -->
+    <string name="library">Library</string>
+
+    <!-- Demo song -->
+    <string name="songInfo">Plastic Bag - Drake</string>
+
+    <!-- Description for main activity  -->
+    <string name="mainExplain">This view displayed the song library. Scrollabe below library text. Clciking on
+        a song will take you to the player activity.</string>
+    <!-- Description for player activity -->
+    <string name="playerExplain">Activity for song playing. Will display album art, artist/song info. Play button will turn into a pause button and vice/versa whem clicked. Forward and back arrows take you to activity        for next song. Will use mediaPlayer class to control music playback. Depedning on time left in song will move viewbar.</string>
+
 </resources>
